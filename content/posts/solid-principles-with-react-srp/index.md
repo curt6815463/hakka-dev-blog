@@ -316,7 +316,7 @@ export default UserListPage;
 以上就是我對 SRP 套用到 React 上的心得，我覺得它算是五個原則裡面相對好懂的規則，卻也非常考驗工程師的內功，以上都是簡單以及特別設計過的情境，但是在現實專案上，需要有長期的實務經驗，才能知道怎麼將大塊的邏輯拆得既合理又實用，
 不然最後只是為了拆而拆，搞的專案凌亂又難以理解。
 
-NEXT -> [SOLID Principles With React - OCP](http://localhost:1313/posts/solid-principles-with-react-ocp/)
+NEXT -> [SOLID Principles With React - OCP](/posts/solid-principles-with-react-ocp/)
 
 ## References
 

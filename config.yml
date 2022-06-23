@@ -1,4 +1,5 @@
 baseURL: https://curt6815463.github.io/hakka-dev-blog/
+canonifyURLs: true
 languageCode: en-us
 title: Hakka Blog
 theme: "PaperMod"
