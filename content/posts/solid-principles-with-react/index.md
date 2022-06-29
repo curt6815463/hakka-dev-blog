@@ -38,7 +38,7 @@ SOLID 的概念是 2000 年由 Robert C. Martin 在此篇論文 - [Design Princi
 
 那我們就開始吧！
 
-[Single responsibility principle (SRP) - 單一職責原則](/posts/solid-principles-with-react-srp/)
+[SOLID Principles With React - SRP（單一職責原則）](/posts/solid-principles-with-react-srp/)
 
 # Reference:
 

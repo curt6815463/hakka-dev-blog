@@ -10,7 +10,7 @@ Hi 大家好我是 Curt 家人
 
 - [SOLID Principles With React](/posts/solid-principles-with-react/)
 - [Open–closed principle (OCP) - 開放封閉原則](/posts/solid-principles-with-react-ocp/)
-- Liskov substitution principle (LSP) - 里氏替換原則
+- [Liskov substitution principle (LSP) - 里氏替換原則](/posts/solid-principles-with-react-lsp/)
 - Interface segregation principle (ISP) - 介面隔離原則
 - Dependency inversion principle (DIP) - 依賴反轉原則
 
