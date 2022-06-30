@@ -6,6 +6,15 @@ draft: false
 
 Hi 大家好我是 Curt 家人
 
+# 系列相關文章
+
+- [SOLID Principles With React](/posts/solid-principles-with-react/)
+- [SOLID Principles With React - SRP (單一職責原則)](/posts/solid-principles-with-react-srp/)
+- [SOLID Principles With React - OCP (開放封閉原則)](/posts/solid-principles-with-react-ocp/)
+- [SOLID Principles Without React - LSP (里氏替換原則)](/posts/solid-principles-without-react-lsp/)
+- SOLID Principles With React - ISP (介面隔離原則)
+- SOLID Principles With React - DIP (依賴反轉原則)
+
 # 前言
 
 最近在準備面試時候發現蠻多公司都會問 SOLID 這個題目，
@@ -20,8 +29,8 @@ SOLID 的概念是 2000 年由 Robert C. Martin 在此篇論文 - [Design Princi
 
 它主要由五個原則所組成，分別為：
 
-- [Single responsibility principle (SRP) - 單一職責原則](/posts/solid-principles-with-react-srp/)
-- [Open–closed principle (OCP) - 開放封閉原則](/posts/solid-principles-with-react-ocp/)
+- Single responsibility principle (SRP) - 單一職責原則
+- Open–closed principle (OCP) - 開放封閉原則
 - Liskov substitution principle (LSP) - 里氏替換原則
 - Interface segregation principle (ISP) - 介面隔離原則
 - Dependency inversion principle (DIP) - 依賴反轉原則
