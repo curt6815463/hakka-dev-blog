@@ -199,11 +199,7 @@ function calcOrderPrice(orders) {
 
 ```js
 class OrderPrice {
-  constructor() {
-    this.price = 0;
-  }
-
-  setPrice(price) {
+  constructor(price) {
     if (price < 0) {
       throw "price should not less than 0";
     }
@@ -221,11 +217,11 @@ const vipOrderPrice = new VipUserOrderPrice();
 vipOrderPrice.setPrice(-20);
 ```
 
-在 contructor 時，父類為了避免價格小於零的訂單出現，因此設定了 price < 0 throw error 的條件，
+在 contructor 時，OrderPrice 為了避免價格小於零的訂單出現，因此設定了 price < 0 throw error 的條件，
 
-而子類是個給 vip 客戶使用的類別，價格可以隨便調整，因此多了 setPrice 的 function，但這樣造成資料有可能出現小於 0 的狀況
+而 VipUserOrderPrice 卻提供了一個 setPrice function，可能會造成資料出現小於 0 的狀況。
 
-問題又來，如果在有使用 OrderPrice 的地方，將它替換成 VipUserOrderPrice，會讓程式壞嗎？當然有機會，因此也不符合 LSP
+所以問題又來，如果在有使用 OrderPrice 的地方，將它替換成 VipUserOrderPrice，會讓程式壞嗎？當然有機會，因此也不符合 LSP
 
 在這個案例中，比較好的做法應該是將 set price 的邏輯，放回父類，由父類來保留他原生的邏輯來達到不變性。
 
